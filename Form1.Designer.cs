@@ -53,7 +53,7 @@ namespace prueba_de_juego_de_parejas
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Lime;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -233,6 +233,7 @@ namespace prueba_de_juego_de_parejas
             // 
             // label4
             // 
+            this.label4.BackColor = System.Drawing.Color.Lime;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label4.Location = new System.Drawing.Point(271, 2);
@@ -245,6 +246,7 @@ namespace prueba_de_juego_de_parejas
             // 
             // label3
             // 
+            this.label3.BackColor = System.Drawing.Color.Lime;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label3.Location = new System.Drawing.Point(138, 2);
@@ -257,6 +259,7 @@ namespace prueba_de_juego_de_parejas
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.Lime;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label2.Location = new System.Drawing.Point(5, 2);
