@@ -291,7 +291,7 @@ namespace prueba_de_juego_de_parejas
             this.ClientSize = new System.Drawing.Size(534, 511);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
-            this.Text = "Matching Game.";
+            this.Text = "Grupo 2, juego de parejas.";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

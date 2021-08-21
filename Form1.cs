@@ -30,8 +30,8 @@ namespace prueba_de_juego_de_parejas
         // y cada icono aparece dos veces en esta lista
         List<string> icons = new List<string>()
     {
-        "!", "!", "N", "N", ",", ",", "k", "k",
-        "b", "b", "v", "v", "w", "w", "z", "z"
+        "l", "l", "H", "H", ",", ",", "M", "M",
+        "O", "O", "v", "v", "ñ", "ñ", "j", "j"
 
     };
         /// <summary>
@@ -48,10 +48,10 @@ namespace prueba_de_juego_de_parejas
                 Label iconLabel = control as Label;
                 if (iconLabel != null)
                 {
-                    int randomNumber = random.Next(icons.Count);
-                    iconLabel.Text = icons[randomNumber];
+                    int randomNum = random.Next(icons.Count);
+                    iconLabel.Text = icons[randomNum];
                      iconLabel.ForeColor = iconLabel.BackColor;
-                    icons.RemoveAt(randomNumber);
+                    icons.RemoveAt(randomNum);
                 }
             }
 
