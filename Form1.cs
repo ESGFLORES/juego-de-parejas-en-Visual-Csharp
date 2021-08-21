@@ -30,7 +30,7 @@ namespace prueba_de_juego_de_parejas
         // y cada icono aparece dos veces en esta lista
         List<string> icons = new List<string>()
     {
-        "l", "l", "H", "H", ",", ",", "M", "M",
+        "l", "l", "H", "H", "2", "2", "M", "M",
         "O", "O", "v", "v", "ñ", "ñ", "j", "j"
 
     };
