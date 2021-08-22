@@ -193,7 +193,7 @@ namespace prueba_de_juego_de_parejas
             // Si el bucle no regresó, no encontró
             // cualquier ícono incomparable
             // Eso significa que el usuario ganó. Muestre un mensaje y cierre el formulario
-            MessageBox.Show("¡¡HAS HACERTADO TODAS LAS PAREJAS !!", "......FELICIDADES......");
+            MessageBox.Show("¡¡HAS ENCONTRADO TODAS LAS PAREJAS o7 !!", "......EN HORA BUENA......");
             Close();
         }
     }
